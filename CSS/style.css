@@ -1,0 +1,23 @@
+/*Le asignamos un color y alineamos todo el contenido en el centro */
+body {
+   background-color: #f7edc4;
+   text-align: center;
+}
+
+/* Ajustamos el ancho de la tabla al 75% del contenedor y centramos el contenido de la tabla */
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Le asignamos el color del fondo y el color del texto a las celdas de encabezado */
+th {
+    background-color: #04aa6d;
+    color: white;
+}
+
+/* Le asignamos un borde negro a las celdas*/
+td {
+    border: 1px solid black;
+}
